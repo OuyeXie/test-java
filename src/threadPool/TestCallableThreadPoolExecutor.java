@@ -30,8 +30,6 @@ public class TestCallableThreadPoolExecutor {
 		MyCallable t7 = new MyCallable("7");
 		MyCallable t8 = new MyCallable("8");
 
-		System.out.println("tasks in queue: " + pool.getQueue().size());
-
 		// 将线程放入池中进行执行
 		Future<String> result1 = null;
 		try {
@@ -88,6 +86,9 @@ public class TestCallableThreadPoolExecutor {
 		} catch (RejectedExecutionException e) {
 			System.out.println("Reject task: " + t8.getName());
 		}
+
+		// print out queue info
+		System.out.println("tasks in queue: " + pool.getQueue().size());
 
 		// try print out result
 		try {
