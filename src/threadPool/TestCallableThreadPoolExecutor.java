@@ -2,7 +2,6 @@ package threadPool;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.RejectedExecutionException;
@@ -17,7 +16,7 @@ public class TestCallableThreadPoolExecutor {
 		System.out.println("Program starts");
 
 		// 创建一个可重用固定线程数的线程池
-		ExecutorService pool = new ThreadPoolExecutor(1, 2, 1L,
+		ThreadPoolExecutor pool = new ThreadPoolExecutor(1, 2, 1L,
 				TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(2),
 				Executors.defaultThreadFactory(), new AbortPolicy());
 
@@ -30,6 +29,8 @@ public class TestCallableThreadPoolExecutor {
 		MyCallable t6 = new MyCallable("6");
 		MyCallable t7 = new MyCallable("7");
 		MyCallable t8 = new MyCallable("8");
+
+		System.out.println("tasks in queue: " + pool.getQueue().size());
 
 		// 将线程放入池中进行执行
 		Future<String> result1 = null;

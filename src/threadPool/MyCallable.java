@@ -18,9 +18,9 @@ class MyCallable implements Callable<String> {
 		System.out.println(this.name + " starts。。。");
 
 		// test exception
-		if (this.name.equals("1")) {
-			throw new BusinessException("4000", "Exception task 1");
-		}
+		// if (this.name.equals("1")) {
+		// throw new BusinessException("4000", "Exception task 1");
+		// }
 
 		try {
 			Thread.sleep(3000);
