@@ -1,101 +1,1087 @@
-[
+{
+	"userId": "DEFAULT_USERID",
+	"jobId": "DEFAULT_JOBID",
+	"typeId": "lingo",
+	"processing-time-total": 1333,
+	"MultilingualClustering.languageCounts": 
 	{
-		"name": "APPLE",
-		"numberOfPatents": 24017
+		"": 99
 	},
 
-	{
-		"name": "APPLE INC",
-		"numberOfPatents": 23283
-	},
+	"clusters": 
+	[
+		{
+			"id": 0,
+			"size": 43,
+			"phrases": 
+			[
+				"CAR"
+			],
 
-	{
-		"name": "APPLE COMPUTER",
-		"numberOfPatents": 22305
-	},
+			"clusters": 
+			[
+				{
+					"id": 1,
+					"size": 4,
+					"phrases": 
+					[
+						"CAR Body",
+						"Surface"
+					],
 
-	{
-		"name": "INC APPLE",
-		"numberOfPatents": 17858
-	},
+					"documents": 
+					[
+						"10",
+						"23",
+						"37",
+						"76"
+					],
 
-	{
-		"name": "NEXT SOFTWARE INC",
-		"numberOfPatents": 3525
-	},
+					"attributes": 
+					{
+						"score": 1.0,
+						"label-scores": 
+						[
+							1.0,
+							0.8471459194585638
+						]
+					},
 
-	{
-		"name": "ORDING BAS",
-		"numberOfPatents": 87
-	},
+					"score": 1.0
+				},
 
-	{
-		"name": "FORSTALL SCOTT",
-		"numberOfPatents": 85
-	},
+				{
+					"id": 2,
+					"size": 4,
+					"phrases": 
+					[
+						"ç‰©å“ç”¨é€”"
+					],
 
-	{
-		"name": "CHRISTIE GREG",
-		"numberOfPatents": 74
-	},
+					"documents": 
+					[
+						"9",
+						"50",
+						"73",
+						"85"
+					],
 
-	{
-		"name": "LEMAY STEPHEN O",
-		"numberOfPatents": 74
-	},
+					"attributes": 
+					{
+						"score": 0.9490595951949252,
+						"label-scores": 
+						[
+							0.9007141152315555
+						]
+					},
 
-	{
-		"name": "CHAUDHRI IMRAN",
-		"numberOfPatents": 73
-	},
+					"score": 0.9490595951949252
+				},
 
-	{
-		"name": "APPLE VINCENT G",
-		"numberOfPatents": 71
-	},
+				{
+					"id": 3,
+					"size": 2,
+					"phrases": 
+					[
+						"Utility Model"
+					],
 
-	{
-		"name": "VINCENT G APPLE",
-		"numberOfPatents": 71
-	},
+					"documents": 
+					[
+						"59",
+						"65"
+					],
 
-	{
-		"name": "ROBBIN JEFFREY L",
-		"numberOfPatents": 44
-	},
+					"attributes": 
+					{
+						"score": 0.8630139570114985,
+						"label-scores": 
+						[
+							0.9626311042187818
+						]
+					},
 
-	{
-		"name": "HOTELLING STEVEN PORTER",
-		"numberOfPatents": 41
-	},
+					"score": 0.8630139570114985
+				},
 
-	{
-		"name": "BESSIE D APPLE",
-		"numberOfPatents": 40
-	},
+				{
+					"id": 4,
+					"size": 2,
+					"phrases": 
+					[
+						"Engine"
+					],
 
-	{
-		"name": "HELLER DAVID",
-		"numberOfPatents": 38
-	},
+					"documents": 
+					[
+						"37",
+						"71"
+					],
 
-	{
-		"name": "WESTERMAN WAYNE",
-		"numberOfPatents": 38
-	},
+					"attributes": 
+					{
+						"score": 0.84823280848554,
+						"label-scores": 
+						[
+							0.9299388345333219
+						]
+					},
 
-	{
-		"name": "ZHONG JOHN Z",
-		"numberOfPatents": 38
-	},
+					"score": 0.84823280848554
+				},
 
-	{
-		"name": "SCHLUB ROBERT W",
-		"numberOfPatents": 37
-	},
+				{
+					"id": 5,
+					"size": 32,
+					"phrases": 
+					[
+						"Other Topics"
+					],
 
-	{
-		"name": "WESTERMAN WAYNE CARL",
-		"numberOfPatents": 36
-	}
-]
+					"documents": 
+					[
+						"3",
+						"4",
+						"14",
+						"25",
+						"27",
+						"28",
+						"30",
+						"31",
+						"33",
+						"36",
+						"39",
+						"40",
+						"41",
+						"45",
+						"46",
+						"47",
+						"51",
+						"55",
+						"68",
+						"69",
+						"70",
+						"72",
+						"88",
+						"89",
+						"90",
+						"91",
+						"92",
+						"93",
+						"94",
+						"95",
+						"97",
+						"98"
+					],
+
+					"attributes": 
+					{
+						"other-topics": true,
+						"score": 0.0,
+						"label-scores": 
+						[
+							-1.0
+						]
+					},
+
+					"score": 0.0
+				}
+			],
+
+			"documents": 
+			[
+				
+			],
+
+			"attributes": 
+			{
+				"score": 1.0,
+				"label-scores": 
+				[
+					1.0
+				]
+			},
+
+			"score": 1.0
+		},
+
+		{
+			"id": 6,
+			"size": 49,
+			"phrases": 
+			[
+				"Personenkraftwagen"
+			],
+
+			"documents": 
+			[
+				"0",
+				"1",
+				"2",
+				"5",
+				"6",
+				"7",
+				"8",
+				"12",
+				"13",
+				"15",
+				"17",
+				"18",
+				"19",
+				"20",
+				"21",
+				"22",
+				"24",
+				"29",
+				"32",
+				"34",
+				"38",
+				"42",
+				"43",
+				"44",
+				"48",
+				"49",
+				"52",
+				"53",
+				"56",
+				"58",
+				"60",
+				"61",
+				"62",
+				"64",
+				"66",
+				"67",
+				"74",
+				"75",
+				"77",
+				"78",
+				"79",
+				"80",
+				"81",
+				"82",
+				"83",
+				"84",
+				"86",
+				"87",
+				"96"
+			],
+
+			"attributes": 
+			{
+				"score": 0.9626693194792879,
+				"label-scores": 
+				[
+					0.8972312366802138
+				]
+			},
+
+			"score": 0.9626693194792879
+		},
+
+		{
+			"id": 7,
+			"size": 3,
+			"phrases": 
+			[
+				"Wheel"
+			],
+
+			"documents": 
+			[
+				"16",
+				"59",
+				"65"
+			],
+
+			"attributes": 
+			{
+				"score": 0.6395204046167977,
+				"label-scores": 
+				[
+					0.9673395770237007
+				]
+			},
+
+			"score": 0.6395204046167977
+		},
+
+		{
+			"id": 8,
+			"size": 3,
+			"phrases": 
+			[
+				"ä¸€ç§æ±½è½¦"
+			],
+
+			"documents": 
+			[
+				"26",
+				"54",
+				"57"
+			],
+
+			"attributes": 
+			{
+				"score": 0.6286771500202006,
+				"label-scores": 
+				[
+					0.9348146214811589
+				]
+			},
+
+			"score": 0.6286771500202006
+		},
+
+		{
+			"id": 9,
+			"size": 2,
+			"phrases": 
+			[
+				"Spielzeugautos"
+			],
+
+			"documents": 
+			[
+				"11",
+				"63"
+			],
+
+			"attributes": 
+			{
+				"score": 0.576060683210168,
+				"label-scores": 
+				[
+					0.9112244962024576
+				]
+			},
+
+			"score": 0.576060683210168
+		},
+
+		{
+			"id": 10,
+			"size": 1,
+			"phrases": 
+			[
+				"Other Topics"
+			],
+
+			"documents": 
+			[
+				"35"
+			],
+
+			"attributes": 
+			{
+				"other-topics": true,
+				"score": 0.0,
+				"label-scores": 
+				[
+					-1.0
+				]
+			},
+
+			"score": 0.0
+		}
+	],
+
+	"processing-time-algorithm": 1333,
+	"documents": 
+	[
+		{
+			"id": "0",
+			"snippet": "",
+			"url": "EM0001394310003",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "1",
+			"snippet": "",
+			"url": "EM0017480390001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "2",
+			"snippet": "",
+			"url": "EM0003839710002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "3",
+			"snippet": "",
+			"url": "US1525072",
+			"title": "Car"
+		},
+
+		{
+			"id": "4",
+			"snippet": "",
+			"url": "USD469387",
+			"title": "Car"
+		},
+
+		{
+			"id": "5",
+			"snippet": "",
+			"url": "EM0000752050002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "6",
+			"snippet": "",
+			"url": "EM0003840030003",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "7",
+			"snippet": "",
+			"url": "EM0002125190001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "8",
+			"snippet": "",
+			"url": "EM0002376980001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "9",
+			"snippet": "ã€ç‰©å“ç”¨é€”ã€‘;æœ¬æ–°å¼æ ·ç‰©å“ï¼Œç³»äººå‘˜ä¹˜è½½ä¹‹ä»£æ­¥ç”¨å·¥å…·ï¼ŒåŒæ—¶ä¹Ÿæ˜¯ä¸€ç§è¿åŠ¨åž‹ä¹‹ç«žé€Ÿç”¨æ±½è½¦ã€‚;ã€åˆ›ä½œç‰¹ç‚¹ã€‘;æœ¬åˆ›ä½œæ¶‰åŠä¸€ç§æ±½è½¦çš„è£…é¥°æ€§è®¾è®¡ï¼Œç‰¹åˆ«åœ°æŒ‡ä¸€ç§æ–°é¢–ç¾Žè§‚ä¹‹ã€Œæ±½è½¦ã€æ–°å¼æ ·ã€‚æœ¬æ–°å¼æ ·æ±½è½¦å¤–è§‚ä¸»è¦ç‰¹å¾ï¼Œç³»çº¿æ¡ä¼˜ç¾Žå…·æœ‰æ”¶è—å¼é¡¶è“¬ä¹‹åŒé—¨æ•žç¯·æ±½è½¦é€ å½¢ï¼ŒåŒ…æ‹¬æ¥”å½¢è½¦å¤´ä½Žæ–œè€Œå°–ä¿ï¼Œä¸€ä½“è®¾è®¡ä¹‹å¤§åž‹ä¿é™©æ†èžåˆåœ¨è½¦å¤´å‰ç¼˜ï¼Œä¸€å¯¹å¤§å­”å¾„æ°”éœ¸ä½äºŽä¿é™©æ†å‰ç«¯å·¦å³ä¾§ï¼Œè½¦èº«ä¿è½çš„é’£ä»¶å‡¹å‡¸æœ‰è‡´ã€æŠ˜çº¿æ£±è§’æ£±çº¿æ ¼å¤–åˆ†æ˜Žï¼Œé«˜ä½»çš„å°¾éƒ¨è¡¨çŽ°å‡ºå‰è¸žåŽå¼“çš„è½¦èº«çº¿æ¡ä»¥åŠç«žé€Ÿçš„å¼ºæ‚åŠ¨æ„Ÿæ°”æ¯ç­‰ï¼Œä¸€å‰¯è“„åŠ¿å¾…å‘çš„å†²åˆºæž¶åŠ¿çªæ˜¾å‡ºæ­£ç»Ÿè·‘è½¦çš„æ°”éŸµä¸Žé˜³åˆšçš„é£Žæ ¼ã€‚æ•´ä½“çš„è½®å»“æ›²çº¿é€ å½¢è€ƒç©¶ç»†è…»ï¼Œèµ‹äºˆè§†è§‰é¢å’Œå¤–è£…é¢ä¸°å¯Œçš„é¢–å¼‚å˜åŒ–ï¼Œçº¿æ¡èˆ’å±•æµç•…ï¼Œæ ·æ€é›…è‡´æ¸…æ–°ï¼Œé¥¶å¯Œè§†è§‰ç¾Žæ„Ÿä¹‹æ–°é¢–æ–°å¼æ ·è®¾è®¡è€…ã€‚;æœ¬æ–°å¼æ ·ã€Œæ±½è½¦ã€å¦‚é™„å›¾æ‰€ç¤ºï¼ŒåŸºæœ¬ä¸Šå‘ˆæ¥”å½¢ä½Žé£Žé˜»ã€ä½Žåº•ç›˜ä¹‹æµçº¿é€ å½¢ï¼Œè½¦å¤´å‰åŽ¢ç›–ä¸­å¤®ç•¥ä½Žæ´¼ã€ç›¸å¯¹ä¹‹ä¸‹çªæ˜¾å‡ºä¸¤ä¾§çªå‡ºçš„èµ·ä¼æ£±çº¿ï¼Œä¸¤ä¾§è½®æ‹±ç•¥æœå¤–ä¾§çªå‡ºå¹¶ä¸Žä¾§ç‰‡å¶å­é’£èžå’Œæˆä¸€ä½“ï¼Œä»Žå‰è§†å›¾çœ‹ï¼Œè‡ªå‰æŒ¡é£ŽçŽ»ç’ƒä¸‹ç¼˜è§’éš…æ²¿è½®æ‹±æ£±çº¿è‡³ä¿é™©æ†å‰ç¼˜ä¸€æ°”å‘µæˆï¼Œè¯¥ä¿é™©æ†ä¸­ç«¯ä¹‹é«˜åº¦ç•¥å°ã€æ¸å¾€ä¸¤ä¾§æ¸å¢žå¤§ï¼Œå‰ç«¯æœ€ä½Žç‚¹å½¢æˆæœ‰ä¸€ä¸ªç•¥å‘ˆæ¢¯å½¢çŠ¶çš„å‡¹éƒ¨ï¼Œå…¶å·¦å³ä¾§é…ç½®æœ‰ä¸€å¯¹å¤§åž‹å‡¹è¿›ã€æ°´å¹³æ–¹å‘ç•¥å‘ˆæ¤­åœ†å½¢ä¹‹æ°”éœ¸å­”å¾„ï¼Œè¯¥å¯¹æ¤­åœ†å½¢æ°”éœ¸å„å…·æœ‰ä¸€ä¸ªå€¾æ–œçš„å¯¼å¼•éƒ¨ï¼Œåˆ†åˆ«å°†æ°”æµå¯¼å‘ä¸¤ä¾§è¾¹ç«¯ä¹‹ä¸€ä¸ªåž‚ç›´æ–¹å‘ç•¥å‘ˆæ¢¯å½¢çŠ¶çš„å¯¼å‡ºå£ã€‚ä¸€å¯¹ç•¥å‘ˆâ€æ°´æ»´â€å½¢çš„å¤§ç¯åˆ†åˆ«è®¾ç½®åœ¨ä¿é™©æ†ä¸Šæ–¹è§’éš…ï¼Œä»Žä¾§è§†å›¾çœ‹ï¼Œä½Žé£Žé˜»é£Žåˆ‡è§’åº¦çš„æŒ¡é£ŽçŽ»ç’ƒè‡ªå‰è½®æ‹±ä¸Šæ–¹éš†èµ·å‡ ä¹Žä¸Žè½¦å¤´è§’åº¦ä¸€è‡´åœ°æœåŽæ–¹å€¾æ–œï¼›è¯¥åº§èˆ±æˆåŒåº§å•é—¨è®¾è®¡ï¼Œè½¦é—¨å‰æ–¹ä¸Šè§’éš…å¯¹ç§°åœ°é…ç½®æœ‰ä¸€å¯¹æ¥”å½¢çš„åŽè§†é•œï¼Œåœ¨å‰ã€åŽè½®æ‹±ä¹‹é—´çš„åº§èˆ±å¤–ä¾§ï¼Œä»¥ä¸€æµç•…çš„å¼§åº¦ä¿®é¥°æˆç•¥ä¸‹å‡¹çš„çªå‡ºåŒ…å›´ï¼ŒäºŽåŽè½®ä¸¤ä¾§å¶å­æ¿ä¸Šæ–¹å¯¹ç§°åœ°å¼€è®¾æœ‰ä¸€ä¸ªç•¥å‘ˆæ¤­åœ†çš„æ°”éœ¸å­”å¾„ï¼Œä¸€å¯¹çªå‡ºåœ†æ‹±å½¢çš„é‡‘å±žæž¶æŠ¤æŒåœ¨æ¤…èƒŒéƒ¨åŽæ–¹ï¼ŒåŠä¸€ä¸ªæ´»åŠ¨é¡¶è“¬è¢«æ”¶è—åœ¨åº§èˆ±éƒ¨åŽæ–¹å½¢æˆæœ‰ä¸€å¯¹çªå‡ºæ£±éƒ¨çš„æ”¶å®¹å®¤å†…ã€‚è¯¥åº§èˆ±éƒ¨åŽæ–¹ä¸ºåŽç½®å¼•æ“Žä¹‹å¼•æ“Žå®¤ï¼ŒåŒ…å«æœ‰ä¸€ä¸ªå‡ ä¹Žå¹³å¦çš„åŽåŽ¢ç›–ï¼Œä¸”åœ¨è¯¥åŽåŽ¢ç›–ä¸Šè®¾æœ‰ä¸¤æŽ’æ•£çƒ­ç½‘å­”ç­‰ã€‚ä»ŽåŽè§†å›¾çœ‹ï¼Œå°¾éƒ¨ä¸¤ä¾§å‘ˆé«˜ä½»çš„åœ†è‚©ï¼Œå¹¶åœ¨è¯¥æ£±éƒ¨å‘åŽå»¶ä¼¸ä¹‹å°¾ç«¯åˆ†åˆ«ç¼€é¥°æœ‰ä¸€å¯¹åœ†å½¢ä¹‹å°¾ç¯ï¼Œä¸”äºŽå°¾ç¯ä¹‹é—´ä¿®é¥°æœ‰ä¸€ä¸ªä¸‹å¼¦çŠ¶çš„æ•£çƒ­ç½‘å­”ï¼›ä¸€ä¸ªå¤§åž‹åŽä¿é™©æ†å‡ è¿‘å¤§äºŽå°¾éƒ¨é«˜åº¦çš„ä¸€åŠï¼Œè¯¥åŽä¿é™©æ†ä¸­å¤®å‡ ä¹Ž3/5ä¹‹ä¸‹ç«¯éƒ¨å½¢æˆä¸€ä¸ªç•¥å‘ˆæ¢¯å½¢çŠ¶çš„å‡¹éƒ¨ï¼ŒäºŽè¯¥å‡¹éƒ¨ä¹‹ä¸­å¤®ä¼¸è®¾æœ‰ä¸€ä¸ªæˆå€’æ¢¯å½¢çŠ¶çš„æ°”éœ¸å¯¼å‡ºå£ï¼ŒåŠè¯¥å‡¹éƒ¨ä¸¤ä¾§å¯¹ç§°åœ°å½¢æˆæœ‰ä¸€ä¸ªç•¥å‘ˆå€’æ¢¯å½¢çŠ¶çš„å­”å¾„ï¼Œä¸”è‡ªè¯¥æ¢¯å½¢å­”å¾„ä¸­å„è‡ªä¼¸è®¾æœ‰ä¸€å¯¹åœ†å½¢æŽ’æ°”ç®¡ç­‰ã€‚æ­¤å¤–ï¼Œå‰ã€åŽè½®åˆ†åˆ«é…ç½®æœ‰å®½å¹…çš„è·‘è½¦èƒŽï¼Œå¹¶ç¼€é¥°æœ‰å¤§å­”å¾„äº”è¾æ˜Ÿå½¢çš„è½®ç®ç­‰ã€‚å¦‚ä¸Šè¿°ä¹‹æ±½è½¦ï¼Œæ•´ä½“è§‚ä¹‹é€ å½¢æ–°æ½®æžå¯Œæ–°é¢–ç‰¹å¾ã€‚;ç»¼ä¸Šæ‰€è¿°ï¼Œæœ¬æ–°å¼æ ·æ±½è½¦ï¼Œå€Ÿç”±æ¥”å½¢æµç•…çš„è½®å»“ã€å‰è¸žåŽå¼“è½¦èº«æ›²çº¿ï¼ŒåŠå‡¹å‡¸æœ‰è‡´çš„é’£ä»¶æ£±çº¿æ¥è¡¨çŽ°å‡ºåŠ›ä¸Žç¾Žçš„åŠ¨æ„Ÿé€ å½¢ï¼›åˆ›ä½œç‰¹è‰²æ´‹æº¢ç€è®¾è®¡è€…çš„å·§æ€ä¸Žç¾Žå­¦é€ è¯£ï¼Œå®Œç¾Žåœ°å°†åˆšåŠ²çš„æ°”éŸµå’Œè°åœ°èžåˆåœ¨å„æž„æˆä¸­ï¼ŒèŽ·è‡´æœ€ä½³çš„æ•ˆæžœåŠæ•´ä½“çš„åè°ƒæ€§ï¼Œå¹¶ä¸”å¯¹è´¨æ„Ÿä¿®é¥°ååº”å‡ºé€ å½¢ç‰©çš„ç²¾è‡´æ„Ÿè§‰ç­‰ï¼Œäºˆäººäº§ç”Ÿä¼˜é›…ã€é²œæ˜Žã€æ¸…æ–°ä¸Žèˆ’é€‚çš„å°è±¡ã€‚",
+			"url": "TWD113919S",
+			"title": "æ±½è½¦"
+		},
+
+		{
+			"id": "10",
+			"snippet": "The said industrial design consists of the shape, configuration and ornamentation of a Car having a generally continuous double contoured surface made from a combined swept curve and being symmetrical about its center forward-aft and inboard-outboard. A front grill made from horizontal pattern segmentations with its extending members merging into the sides of its surface creating a surface joint to match bumper profile. A front and rear bumpers of the same shape swept to matching body surface where intersected, having lights and grill, front and rear combination lights with their external shape curved to the body contour, a double curved surface windshield slightly inclined forward from the constant body curvature and a Rear Window fitted to the body surface, a double curved roof ending at windows edges and within windshield and rear window. The Left and Right side doors are slotted with two curved profiles throughout their centers. Left and Right windows are connected to body roof and ended at doors tops. The car body shape has double curved surfaces in both directions from front to rear and side to side with a constant surface curvature as shown on drawing.Drawings of the design are included wherein:Fig. 1, is a right view design of the Car thereof,Fig. 2, is a top view design of the Car thereof,Fig. 3, is a front view design of the Car thereof,Fig. 4, is a rear view design of the Car thereof,Fig. 5, is an Isometric view design of the Car thereof,Fig. 6, is a detail view of the car grid thereof.",
+			"url": "CA145822S",
+			"title": "CAR"
+		},
+
+		{
+			"id": "11",
+			"snippet": "",
+			"url": "EM0019245230001",
+			"title": "Spielzeugautos"
+		},
+
+		{
+			"id": "12",
+			"snippet": "",
+			"url": "EM0004647220005",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "13",
+			"snippet": "",
+			"url": "EM0001983870001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "14",
+			"snippet": "",
+			"url": "US1827784",
+			"title": "Car"
+		},
+
+		{
+			"id": "15",
+			"snippet": "",
+			"url": "EM0006337480001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "16",
+			"snippet": "An automobile structurally features its anticollision mechanism in the form of cage consisting of steel sheet, steel ring, frame and chassis, its dolphin head-style head composed of cover plate, headlights, windscreen and wing mirros, and its dusters for front and back wheels.",
+			"url": "CN1424209A",
+			"title": "ä¸€æ¬¾è½¿è½¦"
+		},
+
+		{
+			"id": "17",
+			"snippet": "",
+			"url": "EM0003839710001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "18",
+			"snippet": "",
+			"url": "EM0001983790001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "19",
+			"snippet": "",
+			"url": "EM0003840030001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "20",
+			"snippet": "",
+			"url": "EM0006351070001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "21",
+			"snippet": "",
+			"url": "EM0000165710001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "22",
+			"snippet": "",
+			"url": "EM0004246190001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "23",
+			"snippet": "<P>PROBLEM TO BE SOLVED: To easily pass various types of operating cables such as an accelerator cable through the toe board part of a body. Å½<P>SOLUTION: A through-hole 1c is formed in the toe board part 1a. The inner diameter of the through-hole 1c is formed larger than the outer diameter of a steering shaft 7b passed therethrough. A plurality of insert holes including an insert hole 11b are formed in a cover 11 sealing a clearance between the inner peripheral surface of the through-hole 1c and the outer peripheral surface of the steering shaft 7b. The shell 16 of the accelerator cable is passed through the insert hole 11b, and the shells of a clutch cable and a brake cable (both not shown) are passed through the other insert holes. Å½<P>COPYRIGHT: (C)2003,JPO Å½",
+			"url": "JP2003267262A",
+			"title": "Car"
+		},
+
+		{
+			"id": "24",
+			"snippet": "",
+			"url": "EM0004647220001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "25",
+			"snippet": "",
+			"url": "USD522918",
+			"title": "Car"
+		},
+
+		{
+			"id": "26",
+			"snippet": "æœ¬å®žç”¨æ–°åž‹æä¾›ä¸€ç§æ±½è½¦ï¼ŒåŒ…æ‹¬è½¦èº«ã€å‘åŠ¨æœºå’Œè®¾åœ¨è½¦èº«å†…çš„è“„ç”µæ± å®‰è£…éƒ¨ï¼Œæ‰€è¿°è“„ç”µæ± å®‰è£…éƒ¨å¤„å®‰è£…æœ‰å·ç»•å¼è“„ç”µæ± ï¼Œæ‰€è¿°å·ç»•å¼è“„ç”µæ± ä¸Žå‘åŠ¨æœºé€šè¿‡å¯¼çº¿ç›¸è¿žæŽ¥ã€‚æœ¬å®žç”¨æ–°åž‹åˆ©ç”¨äº†å·ç»•å¼è“„ç”µæ± ä½“ç§¯æ›´å°ï¼Œä½Žæ¸©æƒ…å†µä¸‹å¯åŠ¨æ€§èƒ½æ›´å¥½çš„ç‰¹ç‚¹ï¼Œå¾ˆå¥½çš„è§£å†³äº†æ±½è½¦å¸ƒç½®ç©ºé—´å°çš„é—®é¢˜ï¼ŒåŒæ—¶ä¹Ÿæ»¡è¶³æ±½è½¦ä½Žæ¸©å¯åŠ¨è¦æ±‚ï¼Œæé«˜äº†æ±½è½¦çš„æ€§èƒ½ã€‚",
+			"url": "CN203078287U",
+			"title": "ä¸€ç§æ±½è½¦"
+		},
+
+		{
+			"id": "27",
+			"snippet": "",
+			"url": "US1401833",
+			"title": "Car"
+		},
+
+		{
+			"id": "28",
+			"snippet": "",
+			"url": "US0932728",
+			"title": "CAR."
+		},
+
+		{
+			"id": "29",
+			"snippet": "",
+			"url": "EM0003840030002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "30",
+			"snippet": "",
+			"url": "JP1983141978A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "31",
+			"snippet": "",
+			"url": "JP1983141983A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "32",
+			"snippet": "",
+			"url": "EM0009733590002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "33",
+			"snippet": "",
+			"url": "JP1983136580A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "34",
+			"snippet": "",
+			"url": "EM0001155060001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "35",
+			"snippet": "æœ¬å®žç”¨æ–°åž‹æä¾›äº†ä¸€ç§è½¦è¾†ï¼ŒåŒ…æ‹¬å‰¯è½¦æž¶å’Œç®¡é“ï¼Œå‰¯è½¦æž¶åŒ…æ‹¬æ”¯æ‰¿ç®¡ä½“ï¼ˆ7ï¼‰ï¼Œç®¡é“åŒ…æ‹¬å¸ƒç½®äºŽæ”¯æ‰¿ç®¡ä½“ï¼ˆ7ï¼‰å†…éƒ¨çš„å†…ç®¡éƒ¨åˆ†ï¼ˆ5ï¼‰ã€‚æœ¬å®žç”¨æ–°åž‹çš„è½¦è¾†ï¼Œç”±äºŽå°†ç®¡é“çš„å†…ç®¡éƒ¨åˆ†å¸ƒç½®äºŽå‰¯è½¦æž¶çš„æ”¯æ‰¿ç®¡ä½“å†…éƒ¨ï¼Œå……åˆ†åˆ©ç”¨äº†æ”¯æ‰¿ç®¡ä½“çš„å†…éƒ¨ç©ºé—´ï¼Œèƒ½å‡å°å ç”¨ç©ºé—´ï¼Œå› æ­¤å¯ä»¥é¿å…å› å‰¯è½¦æž¶å’Œç®¡é“çš„å¸ƒç½®ä¸å½“å¼•èµ·çš„å…¶ä»–éƒ¨ä»¶æ— æ³•è½ä½æˆ–ç®¡é“ä¸Žå…¶ä»–éƒ¨ä»¶å‘ç”Ÿå¹²æ¶‰çš„çŽ°è±¡ï¼Œä»Žè€Œå‡å°è£…é…éš¾åº¦ã€‚",
+			"url": "CN203005535U",
+			"title": "è½¦è¾†"
+		},
+
+		{
+			"id": "36",
+			"snippet": "",
+			"url": "US0835167",
+			"title": "CAR."
+		},
+
+		{
+			"id": "37",
+			"snippet": "A car has a body, chassis, an engine, a door of luggage compartment. The upper part of the door is opened upward, and the lower part - downward.",
+			"url": "UA70383U",
+			"title": "CAR"
+		},
+
+		{
+			"id": "38",
+			"snippet": "",
+			"url": "EM0000752050001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "39",
+			"snippet": "",
+			"url": "US0971579",
+			"title": "CAR."
+		},
+
+		{
+			"id": "40",
+			"snippet": "",
+			"url": "USD346768",
+			"title": "Car"
+		},
+
+		{
+			"id": "41",
+			"snippet": "",
+			"url": "USD243234",
+			"title": "Car"
+		},
+
+		{
+			"id": "42",
+			"snippet": "",
+			"url": "EM0001394310001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "43",
+			"snippet": "",
+			"url": "EM0008442120001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "44",
+			"snippet": "",
+			"url": "EM0009246180001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "45",
+			"snippet": "",
+			"url": "CA146633S",
+			"title": "CAR"
+		},
+
+		{
+			"id": "46",
+			"snippet": "",
+			"url": "JP1985053453A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "47",
+			"snippet": "",
+			"url": "JP1978133821A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "48",
+			"snippet": "",
+			"url": "EM0006940620001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "49",
+			"snippet": "",
+			"url": "EM0000799000001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "50",
+			"snippet": "ã€ç‰©å“ç”¨é€”ã€‘\næœ¬æ–°å¼æ ·ç‰©å“ï¼Œç³»ä¸€ç§è¿åŠ¨ç”¨ä¹‹ç«žé€Ÿåž‹æ±½è½¦ï¼Œä¾‹å¦‚ä¸€çº§æ–¹ç¨‹å¼æ¯”èµ›ç”¨ä¹‹æ±½è½¦ã€‚\nã€åˆ›ä½œç‰¹ç‚¹ã€‘\næœ¬åˆ›ä½œæ¶‰åŠä¸€ç§æ±½è½¦çš„è£…é¥°æ€§è®¾è®¡ï¼Œç‰¹åˆ«åœ°æŒ‡ä¸€ç§æ–°é¢–ç¾Žè§‚ã€Œæ±½è½¦ã€ä¹‹æ–°å¼æ ·ã€‚æœ¬æ–°å¼æ ·å‘ˆæ•žç¯·å•åº§ç«žé€Ÿåž‹æ±½è½¦ä¹‹è®¾è®¡ï¼Œå¤–è§‚ä¸»è¦ç‰¹å¾åŒ…æ‹¬ä¸€ä¸ªç•¥å‘ˆé£žæ¢­å½¢çš„è½¦èº«å‡ ä¹Žå¹³è´´åœ°é¢ï¼Œç‹­é•¿å°–çªçš„é¼»éƒ¨è·¨è¶Šåœ¨å‰æ‰°æµç¿¼çš„ä¸Šæ–¹ï¼ŒåŠè¶…å¤§ä¸”è¶…å®½æ¯”ä¾‹ä¹‹å¤–æ‰©çš„å‰åŽè½®ç»„å‡ ä¹Žé«˜å‡ºåº§èˆ±éƒ¨ï¼›å‘å¤–ä¾§æ‰©å¼ çš„å·¦å³å¼•æ“Žå®¤åœ¨åº§èˆ±éƒ¨çš„ä¸¤ä¾§å½¢æˆä¸€å¯¹çªï¨Œçš„å‡¸è‚©ï¼Œå¹¶æˆé”¥å½¢çŠ¶åœ°å‘åŽæ–¹å»¶ä¼¸ä¸”åœ¨åŽç«¯çš„ä¾§éƒ¨å½¢æˆä¸€å¯¹å‡¹è¿›çš„æŽ’æ°”å­”ï¼ŒåŠç•¥æˆç‚®ç­’çŠ¶çš„ç©ºåŠ›å­”é«˜è€¸åœ°é…ç½®åœ¨åº§èˆ±éƒ¨çš„åŽæ–¹å½¢æˆä¸€ä¸ªä¸­å¤®å‡¸è„Šï¼›åˆï¼Œä¸€ä¸ªæµç•…é“²å½¢çš„æ‰°æµç¿¼é…ç½®åœ¨å°¾éƒ¨çš„æœ€é«˜ç‚¹ç­‰ã€‚æ•´ä½“å±•çŽ°åœ¨å¤–éƒ¨ä¸Šå€Ÿç”±åŠ²è£…ã€å¾‹åŠ¨çš„å…ƒç´ ç»„åˆï¼Œè£…é¥°å‡ºä¸€è‚¡åŠ¨æ„Ÿçš„æ°”æ¯åŠä¸€å‰¯è“„åŠ¿å¾…å‘çš„å†²åˆºæž¶åŠ¿ç­‰ï¼Œéƒ½çªæ˜¾å‡ºæ­£ç»Ÿèµ›è½¦çš„æ°”éŸµä¸Žé˜³åˆšçš„é£Žæ ¼ã€‚\nå¦‚ä¸Šè¿°ä¹‹ã€Œæ±½è½¦ã€è¡¨è¾¾å‡ºä¸€ç§åŠ¨æ„Ÿçš„åŽŸåˆ›æ€§ï¼Œåˆ›ä½œç‰¹è‰²å’Œè°åœ°è°ƒå’Œå„æž„æˆé—´çš„è§†è§‰æ¡ä»¶ï¼ŒèŽ·è‡´æœ€ä½³çš„æ•ˆæžœåŠæ•´ä½“çš„åè°ƒæ€§ï¼Œæ•´ä½“é€ åž‹äºˆäººäº§ç”Ÿä¼˜é›…ã€é²œæ˜Žã€æ¸…æ–°ä¸Žèˆ’é€‚çš„è§†è§‰å°è±¡ã€‚",
+			"url": "TWD136524U01S",
+			"title": "CAR"
+		},
+
+		{
+			"id": "51",
+			"snippet": "",
+			"url": "JP1981116574A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "52",
+			"snippet": "",
+			"url": "EM0017397980001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "53",
+			"snippet": "",
+			"url": "EM0001023710004",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "54",
+			"snippet": "ä¸€ç§æ±½è½¦ï¼ŒåŒ…æ‹¬ä¸€è½¦ä½“ã€ä¸€åŽè§†é•œä»¥åŠå¤æ•°ä¸ªå‘ç”µå•å…ƒã€‚å…¶ä¸­ï¼Œè¯¥åŽè§†é•œè®¾äºŽè¯¥è½¦ä½“ä¹‹ä¸Šã€‚è½¦ä½“åŒ…æ‹¬ä¸€è½¦å¤´ã€‚è¯¥ç­‰å‘ç”µå•å…ƒè®¾äºŽè¯¥åŽè§†é•œä»¥åŠè¯¥è½¦å¤´ä¹‹ä¸­ï¼Œå¹¶é€è¿‡é£ŽåŠ›äº§ç”Ÿç”µèƒ½ã€‚",
+			"url": "TWM324611U",
+			"title": "æ±½è½¦"
+		},
+
+		{
+			"id": "55",
+			"snippet": "",
+			"url": "RU2021940C1",
+			"title": "CAR"
+		},
+
+		{
+			"id": "56",
+			"snippet": "",
+			"url": "EM0001394310004",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "57",
+			"snippet": "æœ¬å®žç”¨æ–°åž‹å±žäºŽäººç±»ç”Ÿæ´»éœ€è¦çš„æŠ€æœ¯é¢†åŸŸï¼Œæ¶‰åŠä¸€ç§æ±½è½¦ï¼ŒåŒ…æ‹¬æ±½è½¦æœ¬ä½“ï¼Œå…¶ä¸­ä½äºŽä¸»é©¾é©¶å®¤é‡Œæœ‰åˆ¹è½¦è¸æ¿å’Œæ²¹é—¨è¸æ¿ï¼Œåˆ¹è½¦è¸æ¿è¿žæœ‰åˆ¹è½¦æŽ§åˆ¶ç³»ç»Ÿï¼Œæ²¹é—¨è¸æ¿è¿žæœ‰æ²¹é—¨æŽ§åˆ¶ç³»ç»Ÿï¼Œå…¶ç‰¹å¾æ˜¯ï¼›åˆ¹è½¦è¸æ¿ä½äºŽä¸»é©¾é©¶å®¤åº•éƒ¨çš„å³è¾¹ï¼Œæ²¹é—¨è¸æ¿ä½äºŽä¸»é©¾é©¶å®¤åº•éƒ¨çš„å·¦è¾¹ï¼Œè¿™æ ·è®¾è®¡ç¬¦åˆä¼ ç»Ÿè¸©åˆ¹è½¦çš„ä¹ æƒ¯ï¼Œåœ¨å…³é”®æ—¶åˆ»ï¼Œæ­£ç¡®åœ°è¸©åˆ¹è½¦æ˜¾å¾—å°¤å…¶é‡è¦ã€‚æ€»ä¹‹ï¼Œä¸€åªè„šæŽ§åˆ¶ä¸€ç§è¸æ¿ï¼Œåœ¨æ“ä½œä¸Šå°±ä¸ä¼šæ··ä¹±ï¼Œæ— éœ€å³è„šä»Žä¸€åªè¸æ¿ç§»åˆ°å¦ä¸€è¸æ¿æ‰€èŠ±è´¹çš„æ—¶é—´ï¼Œåˆ¹è½¦ä¼šæ›´åŠæ—¶ã€‚",
+			"url": "CN202399914U",
+			"title": "ä¸€ç§æ±½è½¦"
+		},
+
+		{
+			"id": "58",
+			"snippet": "",
+			"url": "EM0001394310002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "59",
+			"snippet": "The utility model relates to an automobile, especially a car. The utility model is provided with a plurality of wheel cover inner baffle plates (10) and wheel spoilers (11). As seen in the driving direction, the wheel cover inner baffle plates and the wheel spoilers are respectively installed in front of car wheels. The car is characterized in that the wheel cover inner baffle plates (10) are separately integrally formed with the wheel spoilers (11) one by one.",
+			"url": "CN2851061Y",
+			"title": "æ±½è½¦"
+		},
+
+		{
+			"id": "60",
+			"snippet": "",
+			"url": "EM0008442120002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "61",
+			"snippet": "",
+			"url": "EM0001912180001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "62",
+			"snippet": "",
+			"url": "EM0004647220003",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "63",
+			"snippet": "",
+			"url": "EM0019245490001",
+			"title": "Spielzeugautos"
+		},
+
+		{
+			"id": "64",
+			"snippet": "",
+			"url": "EM0003462260001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "65",
+			"snippet": "The utility model relates to a car. A front board is arranged at inner front part of carriage; and a control panel of vehicle air-conditioner and a keyhole of ignition switch are positioned at the front board between steering wheel and door at side of the driving seat. The utility models enables driver reach the ignition switch and open the air-conditioner when open the door in summer, and the driver gets on the vehicle after the temperature is lowered down, avoiding the problem that the driver has to stretch forward into the vehicle to ignite to start the air-conditioner in the prior car, muggy and uncomfortable.",
+			"url": "CN2488746Y",
+			"title": "æ±½è½¦"
+		},
+
+		{
+			"id": "66",
+			"snippet": "",
+			"url": "EM0008514490001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "67",
+			"snippet": "",
+			"url": "EM0017480390002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "68",
+			"snippet": "",
+			"url": "CA241255A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "69",
+			"snippet": "",
+			"url": "CA166094A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "70",
+			"snippet": "",
+			"url": "CA165985A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "71",
+			"snippet": "PROBLEM TO BE SOLVED: To ensure stability of a hybrid car while preventing an unexpected torque shock from being given to a driver. SOLUTION: The hybrid car comprising an engine and a motor controls the motor during a predetermined period when charging a secondary battery is required to start/stop, after a target torque Tm* of the motor set corresponding to charging/discharging power Pb* of the secondary battery is reset according to the deviation between a target torque Te* of the engine corresponding to the sum of a requested motive force P* and the charging/discharging power Pb* and an estimated toque Te estimated to be actually output by the engine (S112-S118). Thereby, the requested motive force p* could also be output to a response lag of the engine caused by the start/stop of the secondary battery charging. The target torque Tm* corresponding to the charging/discharging power Pb* of the secondary battery is usually used for controlling the motor, which can minimize the impairing of the car stability. COPYRIGHT: (C)2005,JPO&amp;NCIPI",
+			"url": "JP2004316600A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "72",
+			"snippet": "",
+			"url": "JP1987088681A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "73",
+			"snippet": "ã€ç‰©å“ç”¨é€”ã€‘\næœ¬åˆ›ä½œç³»å…³äºŽä¸€ç§è½¦ã€‚\nã€åˆ›ä½œç‰¹ç‚¹ã€‘\næœ¬åˆ›ä½œç³»å…³äºŽä¸€ç§è½¦ï¼Œå…¶ç³»ä¸€ç§æ±½è½¦ã€‚å¦‚å‰è§†å›¾ä¸­æ‰€å±•ç¤ºï¼Œè¯¥è½¦åœ¨å…¶å‰ç«¯å¤„å…·æœ‰ä¸€æ¢¯å½¢ä¸Šè¿›æ°”å£åŠä¸€ä¸‹è¿›æ°”å£ã€‚è¯¥ä¸¤ä¸ªè¿›æ°”å£å…·æœ‰æ ¼æ …ã€‚æ­¤å¤–ï¼Œä¸¤ä¸ªé•¿å½¢è£…é¥°å“ç³»åµŒå…¥è‡³è¯¥ä¸‹è¿›æ°”å£ä¹‹å·¦ç«¯åŠå³ç«¯å¤„ã€‚å¦‚ä¿¯è§†å›¾ä¸­æ‰€å±•ç¤ºï¼Œä¸¤æ¡è„Šçº¿å»¶ä¼¸åœ¨è¯¥è½¦ä¹‹è½¦ç¯·ä¸Šä¸”å…¶ç­‰å½¼æ­¤é€æ¸æŽ¥è¿‘ã€‚æ­¤å¤–ï¼Œè¯¥è½¦å…·æœ‰ä¸€çŽ»ç’ƒå¤©çª—ä¸”ä¸€ç¿¼ç‰‡ç³»é…ç½®åœ¨è¯¥çŽ»ç’ƒå¤©çª—ä¹‹åŽä¾§å¤„ã€‚å¦‚å·¦ä¾§è§†å›¾åŠå³ä¾§è§†å›¾ä¸­æ‰€å±•ç¤ºï¼Œè¯¥è½¦å…·æœ‰å«å¤´ç¯åŠVå½¢å€¾æ–œå°¾ç¯ä¹‹ä¸€æµçº¿åž‹ä¸»ä½“ã€‚\næœ¬åˆ›ä½œç³»å…³äºŽä¸€ç§æ–°é¢–ä¸”å…·åˆ›æ„ä¹‹æ–°å¼æ ·è®¾è®¡ï¼Œå…¶ä¸ä»…å¯è¾¾æˆæ‰€éœ€åŠŸèƒ½ï¼Œä¸”äº¦å¯æä¾›å…ˆå‰æŠ€æœ¯ä¸­æ‰€æœªè§ä¹‹ä¸€å…·ç¾Žæ„Ÿçš„å¤–è§‚ï¼Œä¸”ä»¤è§‚å¯Ÿè€…èµå¿ƒæ‚¦ç›®ã€‚",
+			"url": "TWD152099S",
+			"title": "CAR"
+		},
+
+		{
+			"id": "74",
+			"snippet": "",
+			"url": "EM0001023710002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "75",
+			"snippet": "",
+			"url": "EM0001023710001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "76",
+			"snippet": "PURPOSE:To facilitate getting on and out of a car and increase the strength of the car body by increasing the height of the car, enlarging the door in the height direction, and furnishing a groove-shaped roof alongside the car advancing direction. CONSTITUTION:The door 18 of a car is enlarged in the height direction to facilitate getting on and out of the car. Increasing the car height, generally, widens the area of a car body viewed from ahead to increase the air resistance during running, but constructing the roof 12 in the form of a groove 14 as in this case should suppress increment of the area viewed from ahead to possible minimum. Also constructing the roof 12 streamlined not only lessens the air resistance, but the groove form 14 permits the air flow to pass through the groove and suppresses sideways swing of the car, which should stabilize the straight running characteristic when the car speed is high. Further, because rainwater flows concentrated to the front middle of the car, so that the person to get on or out of the car is free from risk of receiving a large quantity of rainwater at one time. Further, the rainwater streaming concentrated widens plane-shapedly over the glass surface, so that there is no risk of blocking the view.",
+			"url": "JP1991239680A",
+			"title": "Car"
+		},
+
+		{
+			"id": "77",
+			"snippet": "",
+			"url": "EM0000641590001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "78",
+			"snippet": "",
+			"url": "EM0004647220004",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "79",
+			"snippet": "",
+			"url": "EM0025845810001",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "80",
+			"snippet": "",
+			"url": "EM0025845810003",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "81",
+			"snippet": "",
+			"url": "EM0025845810002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "82",
+			"snippet": "",
+			"url": "EM0004647220002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "83",
+			"snippet": "",
+			"url": "EM0025845810005",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "84",
+			"snippet": "",
+			"url": "EM0025845810004",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "85",
+			"snippet": "ã€ç‰©å“ç”¨é€”ã€‘\næœ¬è®¾è®¡ç‰©å“ï¼Œç³»ä¸€ç§èƒ½å¤Ÿæ­è½½æˆä¹˜å®¢ä¹‹æ±½è½¦ã€‚\nã€è®¾è®¡è¯´æ˜Žã€‘\næœ¬è®¾è®¡æ±½è½¦ä¹‹å¤–è§‚ï¼Œå¦‚å›¾å¼ä¸­æ‰€ç¤ºä¹‹è£…é¥°æ€§ç‰¹ç‚¹ã€‚\nå›¾å¼ä¸­æ‰€æ­éœ²ä»¥è™šçº¿è¡¨ç¤ºä¹‹è½®åœˆéƒ¨åˆ†ï¼Œä¸ºæœ¬æ¡ˆä¸ä¸»å¼ è®¾è®¡ä¹‹éƒ¨åˆ†ã€‚",
+			"url": "TWD164098S",
+			"title": "CAR"
+		},
+
+		{
+			"id": "86",
+			"snippet": "",
+			"url": "EM0001023710003",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "87",
+			"snippet": "",
+			"url": "EM0025845810006",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "88",
+			"snippet": "",
+			"url": "CA129504A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "89",
+			"snippet": "",
+			"url": "US2063057",
+			"title": "Car"
+		},
+
+		{
+			"id": "90",
+			"snippet": "",
+			"url": "CA164198A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "91",
+			"snippet": "",
+			"url": "US1005757",
+			"title": "CAR."
+		},
+
+		{
+			"id": "92",
+			"snippet": "",
+			"url": "CA186724A",
+			"title": "CAR"
+		},
+
+		{
+			"id": "93",
+			"snippet": "",
+			"url": "USD698283",
+			"title": "Car"
+		},
+
+		{
+			"id": "94",
+			"snippet": "",
+			"url": "USD566004",
+			"title": "Car"
+		},
+
+		{
+			"id": "95",
+			"snippet": "",
+			"url": "US1342095",
+			"title": "Car"
+		},
+
+		{
+			"id": "96",
+			"snippet": "",
+			"url": "EM0000006410002",
+			"title": "Personenkraftwagen"
+		},
+
+		{
+			"id": "97",
+			"snippet": "",
+			"url": "US1083977",
+			"title": "CAR."
+		},
+
+		{
+			"id": "98",
+			"snippet": "",
+			"url": "US0806394",
+			"title": "CAR."
+		}
+	],
+
+	"query": "data mining",
+	"MultilingualClustering.majorityLanguage": ""
+}
