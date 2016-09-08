@@ -50,7 +50,7 @@ public class Copy_4_of_Main {
 
 		for (int i = 0; i < input.length(); i++) {
 			List<String> list = new LinkedList<>();
-			int start;
+			int start = 0;
 			if (map.containsKey(i) && map.containsKey(i + 1)) {
 				start = i;
 				list.add(map.get(i));
@@ -77,10 +77,10 @@ public class Copy_4_of_Main {
 			String string = sc.next();
 		}
 
-		// ouput
-		for (Entry<String, Integer> entry : list) {
-			System.out.println(entry.getKey());
-		}
+//		// ouput
+//		for (Entry<String, Integer> entry : list) {
+//			System.out.println(entry.getKey());
+//		}
 	}
 
 }
