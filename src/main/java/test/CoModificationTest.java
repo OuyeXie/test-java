@@ -36,10 +36,37 @@ public class CoModificationTest {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
                         System.out.println(this.getName() + " interrupted!!!");
+                        throw e;
                     }
                 }
                 System.out.println(this.getName() + " finished!!!");
-            } catch (ConcurrentModificationException ee) {
+            } catch (Exception ee) {
+                System.out.println(this.getName() + " error!!!");
+                ee.printStackTrace();
+            }
+        }
+    }
+
+    static class ResetThread extends Thread {
+        public ResetThread(String name) {
+            super(name);
+        }
+
+        @Override
+        public void run() {
+            try {
+                while (count < 1000) {
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        System.out.println(this.getName() + " interrupted!!!");
+                        throw e;
+                    }
+                    iterator = list.iterator();
+                    System.out.println(this.getName() + " invoked!!!");
+                }
+                System.out.println(this.getName() + " finished!!!");
+            } catch (Exception ee) {
                 System.out.println(this.getName() + " error!!!");
                 ee.printStackTrace();
             }
@@ -53,14 +80,18 @@ public class CoModificationTest {
             for (int i = 0; i < 100; i++) {
                 list.add(i);
             }
-            iterator = list.iterator();
-
-            Thread thread0 = new MyThread("Thread-Name-0");
-            Thread thread1 = new MyThread("Thread-Name-1");
+            iterator = list.iterator();;
 
             ExecutorService service = Executors.newCachedThreadPool();
-            service.submit(thread0);
-            service.submit(thread1);
+
+            for (int i = 0; i < 2; i++) {
+                Thread thread = new MyThread("MyThread-Name-" + i);
+                service.submit(thread);
+            }
+
+//            Thread rThread = new ResetThread("ResetThread-Name-0");
+//            service.submit(rThread);
+
             service.shutdown();
             service.awaitTermination(100 * 1000, TimeUnit.MILLISECONDS);
 
