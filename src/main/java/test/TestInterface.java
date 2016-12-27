@@ -17,7 +17,7 @@ interface Interface2 {
 public class TestInterface implements Interface1, Interface2{
 
 	public void print () {
-		System.out.println(this.a);
+//		System.out.println(this.a);
 		System.out.println(this.b);
 		System.out.println(this.c);
 	}
