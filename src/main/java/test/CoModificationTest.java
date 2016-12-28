@@ -1,6 +1,5 @@
 package test;
 
-import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -26,9 +25,9 @@ public class CoModificationTest {
         public void run() {
             try {
                 while (iterator.hasNext()) {
-                    int i = iterator.next();
+                    synchronized (CoModificationTest.iterator) {
+                        int i = iterator.next();
 //                        iterator.remove();
-                    synchronized (CoModificationTest.class) {
                         System.out.println(count + " : " + this.getName() + " : " + i);
                         count++;
                     }
@@ -62,9 +61,34 @@ public class CoModificationTest {
                         System.out.println(this.getName() + " interrupted!!!");
                         throw e;
                     }
-                    iterator = list.iterator();
+//                    iterator = list.iterator();
+                    iterator = null;
                     System.out.println(this.getName() + " invoked!!!");
                 }
+                System.out.println(this.getName() + " finished!!!");
+            } catch (Exception ee) {
+                System.out.println(this.getName() + " error!!!");
+                ee.printStackTrace();
+            }
+        }
+    }
+
+    static class RemoveThread extends Thread {
+        public RemoveThread(String name) {
+            super(name);
+        }
+
+        @Override
+        public void run() {
+            try {
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    System.out.println(this.getName() + " interrupted!!!");
+                    throw e;
+                }
+                list = null;
+                System.out.println(this.getName() + " invoked!!!");
                 System.out.println(this.getName() + " finished!!!");
             } catch (Exception ee) {
                 System.out.println(this.getName() + " error!!!");
@@ -80,7 +104,8 @@ public class CoModificationTest {
             for (int i = 0; i < 100; i++) {
                 list.add(i);
             }
-            iterator = list.iterator();;
+            iterator = list.iterator();
+            ;
 
             ExecutorService service = Executors.newCachedThreadPool();
 
@@ -89,8 +114,11 @@ public class CoModificationTest {
                 service.submit(thread);
             }
 
-//            Thread rThread = new ResetThread("ResetThread-Name-0");
-//            service.submit(rThread);
+            Thread resetThread = new ResetThread("ResetThread-Name-0");
+            service.submit(resetThread);
+
+//            Thread removeThread = new RemoveThread("RemoveThread-Name-0");
+//            service.submit(removeThread);
 
             service.shutdown();
             service.awaitTermination(100 * 1000, TimeUnit.MILLISECONDS);
